@@ -1,4 +1,6 @@
-# app
+# app [![Build Status](https://travis-ci.com/enpenguc/app-ci.svg?branch=master)](https://travis-ci.com/enpenguc/app-ci)
+
+
 
 ## Project setup
 ```
