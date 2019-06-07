@@ -1,15 +1,27 @@
 .DS_Store
-node_modules
-/dist
 
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# build dist
+/dist
+# Output of 'npm pack'
+*.tgz
+
+# test log
 /tests/e2e/reports/
 selenium-debug.log
 
+# dotenv environment variables file
+.env
 # local env files
 .env.local
 .env.*.local
 
 # Log files
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
@@ -22,3 +34,9 @@ yarn-error.log*
 *.njsproj
 *.sln
 *.sw?
+
+# Coverage directory used by tools like istanbul
+coverage
+
+# nyc test coverage
+.nyc_output
